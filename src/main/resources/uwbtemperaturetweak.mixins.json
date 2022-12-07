@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "me.nokko.uwbtemperaturetweak.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "uwbtemperaturetweak.refmap.json",
+  "mixins": [
+    "DisableTemperatureEffectsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
